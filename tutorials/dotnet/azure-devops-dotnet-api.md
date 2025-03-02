@@ -416,5 +416,7 @@ To request the free grant for public or private projects, submit a [request](htt
 
 ![image](https://github.com/user-attachments/assets/5068d5b6-ca19-4fb1-8d45-645aa45c2adb)
 
+There is an option to have it self-hosted , but I prefer to wait for convienience
+
 
 
