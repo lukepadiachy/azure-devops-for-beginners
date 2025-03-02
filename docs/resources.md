@@ -54,10 +54,4 @@ Welcome to the **Resources** section! Here, you’ll find a curated list of tuto
    - [Azure CLI Documentation](https://learn.microsoft.com/en-us/cli/azure/)  
      Learn how to manage Azure resources, including Azure DevOps, from the command line.
 
-
-## Next Steps
-
-> ➡️ **[Explore Tutorials](tutorials/README.md)**  
-> Ready to have some fun? Check out the **Tutorials** section for hands-on fun with Azure DevOps.
-
 [Back to Main](../README.md#table-of-contents)
