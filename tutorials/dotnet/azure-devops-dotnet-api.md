@@ -406,6 +406,8 @@ appName: 'lpazuredevopsdemo'
 
 Error given:
 
+![image](https://github.com/user-attachments/assets/4602bb79-800a-48c2-ac2c-3b042ce4e061)
+
 `##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form https://aka.ms/azpipelines-parallelism-request`
 
 Reason: For Microsoft-hosted parallel jobs, you can get up to 10 free Microsoft-hosted parallel jobs that can run for up to 360 minutes (6 hours) each time for public projects. When you create a new Azure DevOps organization, you aren't given this free grant by default.
@@ -414,9 +416,15 @@ For private projects, you can get one free job that can run for up to 60 minutes
 
 To request the free grant for public or private projects, submit a [request](https://aka.ms/azpipelines-parallelism-request).
 
+![image](https://github.com/user-attachments/assets/7b753964-88c0-4ec3-a8b5-87b046c40296)
+
+
 ![image](https://github.com/user-attachments/assets/5068d5b6-ca19-4fb1-8d45-645aa45c2adb)
 
 There is an option to have it self-hosted , but I prefer to wait for convienience
+
+
+
 
 
 
