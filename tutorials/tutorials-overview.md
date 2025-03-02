@@ -7,7 +7,7 @@ Welcome to the **Tutorials** section! Here, you’ll find hands-on guides to hel
 
 | Tech Stack | Description |
 |------------|-------------|
-| [.NET](dotnet-overview.md) | Learn how to use .NET in Azure DevOps to build, test, and deploy applications. |
+| [.NET](dotnet/dotnet-overview.md) | Learn how to use .NET in Azure DevOps to build, test, and deploy applications. |
 | More coming soon! | Stay tuned for tutorials |
 
 

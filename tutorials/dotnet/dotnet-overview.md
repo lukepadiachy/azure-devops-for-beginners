@@ -7,7 +7,7 @@ Welcome to the **.NET Tutorials** section! Experiment with some hands-on guides 
 
 | Tutorial | Description |
 |------------|-------------|
-| [Learn how to create YAML pipelines in Azure DevOps for a .NET API project.](dotnet/azure-devops-dotnet-api.md) | This guide covers setting up pipelines, defining stages and tasks, and automating build, test, and deployment workflows. Ideal for developers exploring CI/CD with Azure Pipelines. |
+| [Learn how to create YAML pipelines in Azure DevOps for a .NET API project.](azure-devops-dotnet-api.md) | This guide covers setting up pipelines, defining stages and tasks, and automating build, test, and deployment workflows. Ideal for developers exploring CI/CD with Azure Pipelines. |
 | More coming soon! | Stay tuned for tutorials |
 
 
