@@ -11,7 +11,6 @@ Whooop ! Welcome to the **Azure DevOps for Beginners** repository. This collecti
 |-----------------------------------------------|-----------------------------------------------------------------------------|
 | 📦 [What is Azure DevOps?](docs/what-is-azure-devops.md) | An overview of Azure DevOps and its role in modern development workflows.   |
 | 🛠️ [Prerequisites](docs/prerequisites.md)            | Tools and accounts needed to get started with Azure DevOps.                 |
-| 🛤️ [Actually Getting Started](docs/actually-getting-started.md) | A simple, step-by-step guide to creating your Azure DevOps account and setting up your first project.  |
 | 📘 [Tutorials ](tutorials/tutorials-overview.md) | Have some fun with these tutorials                     |
 | 💡 [Tips and Common Issues](docs/tips-and-common-issues.md) | Best practices and solutions to frequent challenges in Azure DevOps.        |
 | 📚 [Resources](docs/resources.md)                    | Additional documentation and community links.                   |
