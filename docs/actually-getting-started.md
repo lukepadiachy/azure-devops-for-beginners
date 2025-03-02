@@ -48,10 +48,22 @@ To automate builds and deployments, set up a pipeline
 
 **Run Pipeline**:Save and run the pipeline to start the build and deployment process
 
+## Additional Information
+
+> ➡️ **[Tips and Common Issues](../docs/tips-and-common-issues.md)**
+>
+> Best practices and solutions to frequent challenges in Azure DevOps.
+
+> ➡️ **[Resources](../docs/resources.md)**
+>
+> Additional documentation and community links.
+
 ## Next Steps
 
-> ➡️ **[Prerequisites](prerequisites.md)**
+> ➡️ **[Tutorials](../tutorials/tutorials-overview.md)**
 >
-> Before diving deeper, ensure you have the necessary tools and accounts in place.
+> Hands-on guides to help you experiment with Azure DevOps using different tech stacks.
+
+
 
 [Back to Main](../README.md#table-of-contents)

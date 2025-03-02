@@ -31,7 +31,7 @@ For more detailed information, refer to the official [Azure DevOps documentation
 
 ## Next Steps
 
-> ➡️ **[Actually Getting Started](docs/actually-getting-started.md)**
+> ➡️ **[Actually Getting Started](actually-getting-started.md)**
 >
 > A simple, step-by-step guide to creating your Azure DevOps account and setting up your first project.
 
