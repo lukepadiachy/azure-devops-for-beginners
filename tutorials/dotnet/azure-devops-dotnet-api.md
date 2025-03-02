@@ -408,7 +408,11 @@ Error given:
 
 `##[error]No hosted parallelism has been purchased or granted. To request a free parallelism grant, please fill out the following form https://aka.ms/azpipelines-parallelism-request`
 
-Reason: Azure Pipelines has temporarily disabled the automatic free grant of Microsoft-hosted parallel jobs in new organizations for public projects and for certain private projects.
+Reason: For Microsoft-hosted parallel jobs, you can get up to 10 free Microsoft-hosted parallel jobs that can run for up to 360 minutes (6 hours) each time for public projects. When you create a new Azure DevOps organization, you aren't given this free grant by default.
+
+For private projects, you can get one free job that can run for up to 60 minutes each time. When you create a new Azure DevOps organization, you may not always be given this free grant by default.
+
+To request the free grant for public or private projects, submit a [request](https://aka.ms/azpipelines-parallelism-request).
 
 ![image](https://github.com/user-attachments/assets/5068d5b6-ca19-4fb1-8d45-645aa45c2adb)
 
