@@ -2,6 +2,8 @@
 
 Whooop ! Welcome to the **Azure DevOps for Beginners** repository. This collection of tutorials/experiments and resources found on the internet which was designed to help newcomers understand and navigate Azure DevOps and cook up fun things in the process.
 
+![azure-devops-for-beginners (3) 1](https://github.com/user-attachments/assets/5395539f-91cd-4bf3-98a0-ef773cbbadb1)
+
 
 ![Tip Badge](https://img.shields.io/badge/Tip-All%20info%20is%20available%20on%20the%20internet!-blue)
 
