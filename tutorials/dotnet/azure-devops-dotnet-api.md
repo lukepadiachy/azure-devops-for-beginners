@@ -416,12 +416,54 @@ For private projects, you can get one free job that can run for up to 60 minutes
 
 To request the free grant for public or private projects, submit a [request](https://aka.ms/azpipelines-parallelism-request).
 
+In Azure DevOps, "parallelism" refers to the ability to run multiple tasks or jobs at the same time within your pipeline. In otherwords this means you can configure your pipeline to execute multiple jobs or tasks concurrently, reducing the overall time it takes to complete the pipeline. However, to run tasks in parallel, you need to have enough parallel jobs available in your Azure DevOps organization. Each parallel job allows one task to run at a time, so if you want to run multiple tasks simultaneously, you'll need multiple parallel jobs.
+
 ![image](https://github.com/user-attachments/assets/7b753964-88c0-4ec3-a8b5-87b046c40296)
 
 
 ![image](https://github.com/user-attachments/assets/5068d5b6-ca19-4fb1-8d45-645aa45c2adb)
 
 There is an option to have it self-hosted , but I prefer to wait for convienience
+
+## UPDATE 
+Finally got the access be sure to check your Junk mail/spam to make sure all things have been corrected
+
+
+![image](https://github.com/user-attachments/assets/a9fc9d5b-0637-4906-b02f-c5a9d7ef0f9e)
+
+Ran the pipeline , had some typos so it failed :( haha .
+
+Let's try again:
+
+
+![image](https://github.com/user-attachments/assets/7d3a2b80-4da4-40d0-bf00-dc054df8d89c)
+
+
+In order to deploy to your web app you will have to permit it to :)
+
+- Click on the Deploy block
+
+![image](https://github.com/user-attachments/assets/efee700d-0b92-4ac4-ab36-29dff2c28032)
+
+
+- Permit and baaaam !
+
+![image](https://github.com/user-attachments/assets/24291a70-072b-4db8-92b4-5282081802a2)
+
+Once its fully deployed 
+- Click on deploy block
+- Click on AzureWebApp
+
+![image](https://github.com/user-attachments/assets/6120ea34-6c7b-4f4b-b3f0-727ef32f03d8)
+
+At this point you might think BRO ? What even ? thats okay its an API project, there is no UI for .NET 9 like swagger unless you add it, so if you would like to see anything realted to the deployed API project just add a `/weatherforecast` to you exsiting link and baam.
+
+![image](https://github.com/user-attachments/assets/2b95b180-6c99-4fc2-ad23-cb12cf019e36)
+
+
+
+
+
 
 
 
