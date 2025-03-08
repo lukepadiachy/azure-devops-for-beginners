@@ -54,4 +54,8 @@ Welcome to the **Resources** section! Here, you’ll find a curated list of tuto
    - [Azure CLI Documentation](https://learn.microsoft.com/en-us/cli/azure/)  
      Learn how to manage Azure resources, including Azure DevOps, from the command line.
 
+###  **Youtube Videos**
+   - [How To Create YAML Pipelines In Azure DevOps With .NET API](https://www.youtube.com/watch?v=U2y6exiRSiA&t=2143s)  
+     Amazing video that the .NET tutorial is based off of. Special thanks to KakashiDota.
+
 [Back to Main](../README.md#table-of-contents)
