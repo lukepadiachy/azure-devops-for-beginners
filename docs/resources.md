@@ -19,7 +19,9 @@ Welcome to the **Resources** section! Here, you’ll find a curated list of tuto
 ##  Popular Videos and Tutorials
 
 ###  **YouTube: Azure DevOps for Beginners**
-   - [Azure DevOps Tutorial for Beginners](https://www.youtube.com/watch?v=4BibQ69MD8c&t=1218s)  
+   - [Azure DevOps Tutorial for Beginners](https://www.youtube.com/watch?v=4BibQ69MD8c&t=1218s)
+   - [How To Create YAML Pipelines In Azure DevOps With .NET API](https://www.youtube.com/watch?v=U2y6exiRSiA&t=2143s)  
+     Amazing video that the .NET tutorial is based off of. Special thanks to KakashiDota.  
 
 ##  Blogs and Articles
 
@@ -53,9 +55,5 @@ Welcome to the **Resources** section! Here, you’ll find a curated list of tuto
 ###  **Azure CLI**
    - [Azure CLI Documentation](https://learn.microsoft.com/en-us/cli/azure/)  
      Learn how to manage Azure resources, including Azure DevOps, from the command line.
-
-###  **Youtube Videos**
-   - [How To Create YAML Pipelines In Azure DevOps With .NET API](https://www.youtube.com/watch?v=U2y6exiRSiA&t=2143s)  
-     Amazing video that the .NET tutorial is based off of. Special thanks to KakashiDota.
 
 [Back to Main](../README.md#table-of-contents)
