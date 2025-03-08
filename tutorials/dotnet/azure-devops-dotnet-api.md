@@ -18,6 +18,7 @@
 - [Upload ASP DOTNET Core Web API project to Azure Devops](#upload-asp-dotnet-core-web-api-project-to-azure-devops)
 - [Create CICD Pipeline](#create-cicd-pipeline)
 - [Create A Azure Web App](#create-a-azure-web-app)
+- [Deploy To Azure Web App](#deploy-to-azure-web-app)
 
 
 ## Setup project in Azure Devops
@@ -180,7 +181,7 @@ steps:
           inputs:
             packageType: 'sdk'
             version: '9.x'
-            installationPath: $(Aget.ToolsDirectory)/dotnet
+            installationPath: $(Agent.ToolsDirectory)/dotnet
 ```
 
 #### steps
@@ -199,7 +200,7 @@ Everything the dotnet sdk needs to run.
 `9.x` Since our project has been set to .NET 9 , we going to specify that here and x just means latest (need to dive in this abit more)
 
 #### installationPath
-This says where our sdk should be installed on the vm. This `$(Aget.ToolsDirectory)/dotnet` is a prebuilt directory in Azure DevOps which we can use.
+This says where our sdk should be installed on the vm. This `$(Agent.ToolsDirectory)/dotnet` is a prebuilt directory in Azure DevOps which we can use.
 
 **Run a Script:**
 
@@ -214,7 +215,7 @@ This says where our sdk should be installed on the vm. This `$(Aget.ToolsDirecto
       
         - task: PublishBuildArtifacts@1
           inputs:
-            PathtoPublish: $(Build.ArtifactsStagingDirectory)
+            PathtoPublish: $(Build.ArtifactStagingDirectory)
             ArtifactName: drop
             publishLocation: Container
 ```
@@ -349,7 +350,11 @@ This is the current code thats deployed , note that it is just a normal template
 
 ![image](https://github.com/user-attachments/assets/c5052317-b6ed-4f2d-9c36-cc8dc12af197)
 
-So now with the name we copied head back to our pipeline
+So now with the name we copied head back to our pipeline to deploy to this :)
+
+## Deploy To Azure Web App
+Now, let’s modify our Azure DevOps YAML pipeline so that it deploys to our Web App.
+
 - Add the **appName**
 ```yaml
 appName: 'lpazuredevopsdemo'
