@@ -421,7 +421,7 @@ For private projects, you can get one free job that can run for up to 60 minutes
 
 To request the free grant for public or private projects, submit a [request](https://aka.ms/azpipelines-parallelism-request).
 
-In Azure DevOps, "parallelism" refers to the ability to run multiple tasks or jobs at the same time within your pipeline. In otherwords this means you can configure your pipeline to execute multiple jobs or tasks concurrently, reducing the overall time it takes to complete the pipeline. However, to run tasks in parallel, you need to have enough parallel jobs available in your Azure DevOps organization. Each parallel job allows one task to run at a time, so if you want to run multiple tasks simultaneously, you'll need multiple parallel jobs.
+In Azure DevOps,"parallelism" means running multiple tasks or jobs at the same time in your pipeline. This helps speed things up by completing different parts of the pipeline at once. To run tasks at the same time, your Azure DevOps organization needs enough parallel jobs. Each parallel job runs one task at a time, so you'll need more if you want multiple tasks to run together.
 
 ![image](https://github.com/user-attachments/assets/7b753964-88c0-4ec3-a8b5-87b046c40296)
 
