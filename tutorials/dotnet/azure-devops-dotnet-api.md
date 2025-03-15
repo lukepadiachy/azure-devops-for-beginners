@@ -15,7 +15,7 @@
 ## 🔍 The Breakdown
 
 - [Setup project in Azure Devops](#setup-project-in-azure-devops)
-- [Upload ASP DOTNET Core Web API project to Azure Devops](#upload-asp-dotnet-core-web-api-project-to-azure-devops)
+- [Sending ASP DOTNET Core Web API project to Azure Devops](#sending-asp-dotnet-core-web-api-project-to-azure-devops)
 - [Create CICD Pipeline](#create-cicd-pipeline)
 - [Create A Azure Web App](#create-a-azure-web-app)
 - [Deploy To Azure Web App](#deploy-to-azure-web-app)
@@ -41,7 +41,7 @@ That's pretty much it :)
 
 You have sucesfully created you project on Azure DevOps. Interesting part. I was at work and my bro Sim was like how do we get our project (Source Code) into Azure DevOps. "I was like damn I genuinely don't know bro", pretty much how this repo was created haha.
 
-## Upload ASP DOTNET Core Web API project to Azure Devops
+## Sending ASP DOTNET Core Web API project to Azure Devops
 In here we will assume you are familiar with .NET Development , if not you can look at this [Create web APIs with ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/web-api/?view=aspnetcore-9.0). Im pretty sure there's a couple ways to do this. We just taking a simpler route.
 
 - We have our Web API project on Visual Studio
